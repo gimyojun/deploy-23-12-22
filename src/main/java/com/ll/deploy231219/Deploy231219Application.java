@@ -22,7 +22,7 @@ public class Deploy231219Application {
     @GetMapping("/")
     @ResponseBody
     public String showMain() {
-        return "메인 젠킨스 빌드 테스트1";
+        return "메인 젠킨스 빌드 테스트2";
     }
 
     @GetMapping("/new")
